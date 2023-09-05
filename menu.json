@@ -1,0 +1,50 @@
+{
+   "Features":[
+      {
+         "Title":"NCache API",
+         "Description":"Quickly and easily use the following API with NCache Live.",
+         "Operations":[
+            {
+               "Title":"Basic Caching Operations",
+               "Description":"Effortlessly manage your cache data with fundamental operations like Create, Read, Update, and Delete.",
+               "Path":"BasicCacheOperations"
+            },
+            {
+               "Title":"Cache Item Locking",
+               "Description":"Secure exclusive access to cache items, ensuring concurrent modifications don't lead to inconsistencies.",
+               "Path":"CacheItemLocking"
+            },
+			{
+               "Title":"Grouping Cache Data (Tags)",
+               "Description":"Use queries for changing and retrieving data from cache.",
+               "Path":"GroupingCachedData"
+            },
+            {
+               "Title":"EF Core Resultset Caching",
+               "Description":"Caches query results and operates on data directly in the cache.",
+               "Path":"EFCoreResultsetCaching"
+            },
+            {
+               "Title":"SQL Query (Find Data in Cache)",
+               "Description":"Speed up your ASP.NET Core applications by caching the responses to be serves for identical requests.",
+               "Path":"SqlQueryCacheLookup"
+            },
+            {
+               "Title":"EF Core LINQ (Find Data in Cache)",
+               "Description":"Caches query results and operates on data directly in the cache.",
+               "Path":"EFCoreLinqCacheLookup"
+            },
+            {
+               "Title":"Data Structures (List & Queue)",
+               "Description":"Leverage familiar data structures such as Lists, Hashes, Sets, etc., which are distributed across the NCache cluster, providing in-memory access, scalability, resilience, and concurrent control.",
+               "Path":"DataStructures"
+            },
+            {
+               "Title":"Pub Sub Messaging",
+               "Description":"Leverage the power of Publish/Subscribe model for real-time communication between distributed application components.",
+               "Path":"PubSubMessaging"
+            }
+         ]
+      }
+   ]
+}
